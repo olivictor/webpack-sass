@@ -1,0 +1,10 @@
+@import 'second_level';
+
+@mixin primary-color {
+  color: black;
+}
+
+.main {
+  @include primary-border;
+  background: yellow;
+}
